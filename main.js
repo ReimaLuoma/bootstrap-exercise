@@ -5,9 +5,3 @@ var ready = (callback) => {
 ready(() => {
     document.querySelector(".header").style.height = window.innerHeight + "px";
 })
-
-//MODAL SETUP
-
-setTimeout(function() {
-	let myModal = document.getElementById("demo-modal");
-}, 500);
